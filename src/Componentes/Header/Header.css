@@ -1,0 +1,31 @@
+.container {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(38, 130, 129);
+}
+
+.container__logo {
+    width: 50%;
+}
+
+.container__links>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.container__links>ul>a {
+    color: #f6f6f6;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: all .5s ease;
+}
+
+.container__links>ul>a:hover {
+    color: black;
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
